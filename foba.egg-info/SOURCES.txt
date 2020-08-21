@@ -1,0 +1,12 @@
+README.md
+setup.py
+foba/__init__.py
+foba.egg-info/PKG-INFO
+foba.egg-info/SOURCES.txt
+foba.egg-info/dependency_links.txt
+foba.egg-info/top_level.txt
+foba/entries/__init__.py
+foba/matrices/__init__.py
+foba/objects/__init__.py
+foba/tabulars/__init__.py
+foba/vectors/__init__.py
