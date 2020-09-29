@@ -5,7 +5,7 @@ from .dict_numbers import \
     mortality_rates, \
     power_cars, \
     recessions, \
-    dict_collection as numeral_dict_collection
+    dict_collection as number_dict_collection
 
 from .dict_strings import \
     car_plants, \

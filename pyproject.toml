@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "foba"
-version = "0.0.3"
+version = "0.0.4"
 description = "placeholder sample objects for test"
 authors = ["Hoyeung Wong <hoyeungw@outlook.com>"]
 license = "MIT"
