@@ -1,11 +1,19 @@
 Metadata-Version: 1.2
 Name: foba
-Version: 0.1.0
-Summary: UNKNOWN
-Home-page: UNKNOWN
-Author: hazen
+Version: 0.0.1
+Summary: placeholder sample objects for test
+Home-page: https://github.com/pydget/foba
+Author: Hoyeung Wong
 Author-email: hoyeungw@outlook.com
 License: UNKNOWN
-Description: UNKNOWN
+Description: # foba
+        ##### placeholder sample objects for test
+        
+        ### Usage
+        ```python
+        from foba.dicts import pastas
+        
+        print(pastas)
+        ```
 Platform: UNKNOWN
 Requires-Python: >=3.8,<4.0
