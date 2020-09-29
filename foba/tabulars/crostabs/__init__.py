@@ -1,35 +1,20 @@
-import json
-
+from foba.tabulars.crostabs.AoEIIUnitsAttackByStages import AoEIIUnitsAttackByStages
+from foba.tabulars.crostabs.AoEIIUnitsHpByStages import AoEIIUnitsHpByStages
+from foba.tabulars.crostabs.AreaByCountry import AreaByCountry
+from foba.tabulars.crostabs.BigMacAdjustedIndexes import BigMacAdjustedIndexes
+from foba.tabulars.crostabs.CountryGDPByYear import CountryGDPByYear
+from foba.tabulars.crostabs.FinancialAssetsToGDPByYear import FinancialAssetsToGDPByYear
+from foba.tabulars.crostabs.MilitaryByCountry2019 import MilitaryByCountry2019
+from foba.tabulars.crostabs.TeachersCountByYear import TeachersCountByYear
 from foba.utils import FooDict
 
-agriculture_forestry_fishing_va = json.load(open('AgricultureForestryFishingVA.json'))
-arms_exports = json.load(open('ArmsExports.json'))
-arms_imports = json.load(open('ArmsImports.json'))
-big_mac_index = json.load(open('BigMacIndex.json'))
-consumption_expenditure = json.load(open('ConsumptionExpenditure.json'))
-gdp = json.load(open('Gdp.json'))
-industry_va = json.load(open('IndustryVA.json'))
-manufacturing_va = json.load(open('ManufacturingVA.json'))
-market_cap_listed_domestic = json.load(open('MarketCapListedDomestic.json'))
-military_expenditure = json.load(open('MilitaryExpenditure.json'))
-population = json.load(open('Population.json'))
-rural_population = json.load(open('RuralPopulation.json'))
-stocks_traded_value = json.load(open('StocksTradedValue.json'))
-urban_population = json.load(open('UrbanPopulation.json'))
-
-dict_collection = FooDict({
-    'AgricultureForestryFishingVA': agriculture_forestry_fishing_va,
-    'ArmsExports': arms_exports,
-    'ArmsImports': arms_imports,
-    'BigMacIndex': big_mac_index,
-    'ConsumptionExpenditure': consumption_expenditure,
-    'Gdp': gdp,
-    'IndustryVA': industry_va,
-    'ManufacturingVA': manufacturing_va,
-    'MarketCapListedDomestic': market_cap_listed_domestic,
-    'MilitaryExpenditure': military_expenditure,
-    'Population': population,
-    'RuralPopulation': rural_population,
-    'StocksTradedValue': stocks_traded_value,
-    'UrbanPopulation': urban_population,
+crostab_collection = FooDict({
+    'AoEIIUnitsAttackByStages': AoEIIUnitsAttackByStages,
+    'AoEIIUnitsHpByStages': AoEIIUnitsHpByStages,
+    'AreaByCountry': AreaByCountry,
+    'BigMacAdjustedIndexes': BigMacAdjustedIndexes,
+    'CountryGDPByYear': CountryGDPByYear,
+    'FinancialAssetsToGDPByYear': FinancialAssetsToGDPByYear,
+    'MilitaryByCountry2019': MilitaryByCountry2019,
+    'TeachersCountByYear': TeachersCountByYear,
 })
