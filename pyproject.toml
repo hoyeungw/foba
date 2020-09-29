@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "foba"
-version = "0.0.4"
+version = "0.0.6"
 description = "placeholder sample objects for test"
 authors = ["Hoyeung Wong <hoyeungw@outlook.com>"]
 license = "MIT"
@@ -19,7 +19,6 @@ keywords = [
 python = "^3.8"
 veho = ">=0.0.4"
 way = ">=0.0.1"
-leonardo = "^2019.12.30"
 
 [tool.poetry.dev-dependencies]
 pytest = ">=6.0.0"
