@@ -2,12 +2,11 @@ from math import sqrt
 
 
 class Point:
-    id = 0
 
-    def __init__(self, x, y, id):
+    def __init__(self, x, y, tag=None):
         self.x = x
         self.y = y
-        if id is not None: self.id = id
+        if tag is not None: self.tag = tag
 
     @property
     def distance(self): return sqrt(self.x ** 2 + self.y ** 2)
